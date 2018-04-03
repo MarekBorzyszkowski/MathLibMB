@@ -2,5 +2,6 @@
 
 namespace MathFunctionsStatic
 {
-	int div(int x, int y);
+	double areaOfRegularPolygon(double R, double angle);
+	void matrixDeterminantThreeOfComplex(double complex[3][3][2]);
 }
