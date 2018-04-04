@@ -105,7 +105,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>D:\Programowanie\GitVisual\MathLibMB\MathFunctionsDynamic;D:\Programowanie\GitVisual\MathLibMB\MathFunctionsStatic;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\programowanie\GitHub\MathLibMB\MathFunctionsDynamic;C:\programowanie\GitHub\MathLibMB\MathFunctionsStatic;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>

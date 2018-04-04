@@ -1,6 +1,7 @@
 #define PI 3.14159265359
 #include <cmath>
 #include <iostream>
+#include <ctgmath>
 #include "MathFunctionsStatic.h"
 
 using namespace std;
@@ -34,5 +35,17 @@ namespace MathFunctionsStatic
 		}
 		cout << "Real part: " << real << " Imagine part: " << imagine << "i" << endl;
 	}
+	void sqrtComplex(double real, double imagine, int index) {
+		double pom = sqrt(real*real + imagine * imagine);
+		double fi = atan2(imagine, real);
+		cout << fi << endl;
+		double realResoult, imagineResoult;
+		for (int i = 0; i < index; i++) {
+			realResoult = pom * cos((fi + 2 * i*180)/ index);
+			imagineResoult = pom * sin((fi + 2*i * 180) / index);
+			cout << i << " real possibility: " << realResoult << " " << i << " imagine possibility: " << imagineResoult << endl;
+		}
+	}
+
 
 }
